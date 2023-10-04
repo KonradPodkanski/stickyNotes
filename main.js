@@ -67,6 +67,7 @@ const removeAllNotes = () => {
 	while (noteArea.firstChild) {
 		noteArea.removeChild(noteArea.firstChild);
 	}
+	cardID = 1;
 };
 const removeNote = e => {
 	if (e.target.classList.contains("fas", "fa-times", "icon")) {
